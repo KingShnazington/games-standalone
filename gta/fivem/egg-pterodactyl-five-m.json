@@ -92,9 +92,9 @@
             "name": "txAdmin Port",
             "description": "The port for the txAdmin panel",
             "env_variable": "TXADMIN_PORT",
-            "default_value": "40120",
+            "default_value": "1120",
             "user_viewable": true,
-            "user_editable": false,
+            "user_editable": true,
             "rules": "required|string|max:20",
             "field_type": "text"
         },
